@@ -16,6 +16,17 @@
 		56A3928B2B41A7EA001E1D23 /* MyLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3928A2B41A7EA001E1D23 /* MyLocationView.swift */; };
 		56A3928D2B41A7F7001E1D23 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3928C2B41A7F7001E1D23 /* SearchView.swift */; };
 		56A392902B41A9A6001E1D23 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3928F2B41A9A6001E1D23 /* FavoriteView.swift */; };
+		56A392952B41FDB8001E1D23 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 56A392942B41FDB8001E1D23 /* Alamofire */; };
+		56A392972B42B0CA001E1D23 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392962B42B0CA001E1D23 /* SearchBar.swift */; };
+		56A3929A2B42B2BE001E1D23 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392992B42B2BE001E1D23 /* Extension.swift */; };
+		56A3929C2B42FE33001E1D23 /* NavigationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3929B2B42FE33001E1D23 /* NavigationModifier.swift */; };
+		56A3929E2B430CB2001E1D23 /* MyLocationButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3929D2B430CB2001E1D23 /* MyLocationButtonView.swift */; };
+		56A392A02B430CD5001E1D23 /* MyLocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3929F2B430CD5001E1D23 /* MyLocationMapView.swift */; };
+		56A392A22B446602001E1D23 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392A12B446602001E1D23 /* Station.swift */; };
+		56A392A42B446CAD001E1D23 /* FavoriteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392A32B446CAD001E1D23 /* FavoriteListView.swift */; };
+		56A392A62B446CBC001E1D23 /* FavoriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392A52B446CBC001E1D23 /* FavoriteDetailView.swift */; };
+		56A392A82B446CCE001E1D23 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392A72B446CCE001E1D23 /* SearchListView.swift */; };
+		56A392AA2B446CDC001E1D23 /* SearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392A92B446CDC001E1D23 /* SearchDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +40,16 @@
 		56A3928A2B41A7EA001E1D23 /* MyLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationView.swift; sourceTree = "<group>"; };
 		56A3928C2B41A7F7001E1D23 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		56A3928F2B41A9A6001E1D23 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		56A392962B42B0CA001E1D23 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		56A392992B42B2BE001E1D23 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		56A3929B2B42FE33001E1D23 /* NavigationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModifier.swift; sourceTree = "<group>"; };
+		56A3929D2B430CB2001E1D23 /* MyLocationButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationButtonView.swift; sourceTree = "<group>"; };
+		56A3929F2B430CD5001E1D23 /* MyLocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationMapView.swift; sourceTree = "<group>"; };
+		56A392A12B446602001E1D23 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		56A392A32B446CAD001E1D23 /* FavoriteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListView.swift; sourceTree = "<group>"; };
+		56A392A52B446CBC001E1D23 /* FavoriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailView.swift; sourceTree = "<group>"; };
+		56A392A72B446CCE001E1D23 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		56A392A92B446CDC001E1D23 /* SearchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A392952B41FDB8001E1D23 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,9 @@
 		56A392732B406366001E1D23 /* CarRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				56A392982B42B28E001E1D23 /* Extension */,
+				56A392922B41AF9F001E1D23 /* ViewModel */,
+				56A392912B41AF89001E1D23 /* Model */,
 				56A392822B406440001E1D23 /* View */,
 				56A392742B406366001E1D23 /* CarRestaurantApp.swift */,
 				56A392782B406368001E1D23 /* Assets.xcassets */,
@@ -102,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				56A3928A2B41A7EA001E1D23 /* MyLocationView.swift */,
+				56A3929D2B430CB2001E1D23 /* MyLocationButtonView.swift */,
+				56A3929F2B430CD5001E1D23 /* MyLocationMapView.swift */,
 			);
 			path = MyLoaction;
 			sourceTree = "<group>";
@@ -110,6 +137,9 @@
 			isa = PBXGroup;
 			children = (
 				56A3928C2B41A7F7001E1D23 /* SearchView.swift */,
+				56A392962B42B0CA001E1D23 /* SearchBar.swift */,
+				56A392A72B446CCE001E1D23 /* SearchListView.swift */,
+				56A392A92B446CDC001E1D23 /* SearchDetailView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -118,8 +148,34 @@
 			isa = PBXGroup;
 			children = (
 				56A3928F2B41A9A6001E1D23 /* FavoriteView.swift */,
+				56A392A32B446CAD001E1D23 /* FavoriteListView.swift */,
+				56A392A52B446CBC001E1D23 /* FavoriteDetailView.swift */,
 			);
 			path = Favorite;
+			sourceTree = "<group>";
+		};
+		56A392912B41AF89001E1D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56A392A12B446602001E1D23 /* Station.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		56A392922B41AF9F001E1D23 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		56A392982B42B28E001E1D23 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				56A392992B42B2BE001E1D23 /* Extension.swift */,
+				56A3929B2B42FE33001E1D23 /* NavigationModifier.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +194,9 @@
 			dependencies = (
 			);
 			name = CarRestaurant;
+			packageProductDependencies = (
+				56A392942B41FDB8001E1D23 /* Alamofire */,
+			);
 			productName = CarRestaurant;
 			productReference = 56A392712B406366001E1D23 /* CarRestaurant.app */;
 			productType = "com.apple.product-type.application";
@@ -166,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 56A392682B406366001E1D23;
+			packageReferences = (
+				56A392932B41FDB8001E1D23 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 56A392722B406366001E1D23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -192,12 +254,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A3929E2B430CB2001E1D23 /* MyLocationButtonView.swift in Sources */,
+				56A3929A2B42B2BE001E1D23 /* Extension.swift in Sources */,
 				56A392772B406366001E1D23 /* ContentView.swift in Sources */,
+				56A3929C2B42FE33001E1D23 /* NavigationModifier.swift in Sources */,
+				56A392A62B446CBC001E1D23 /* FavoriteDetailView.swift in Sources */,
+				56A392AA2B446CDC001E1D23 /* SearchDetailView.swift in Sources */,
 				56A3928B2B41A7EA001E1D23 /* MyLocationView.swift in Sources */,
+				56A392A22B446602001E1D23 /* Station.swift in Sources */,
 				56A392902B41A9A6001E1D23 /* FavoriteView.swift in Sources */,
 				56A392752B406366001E1D23 /* CarRestaurantApp.swift in Sources */,
 				56A392852B40649D001E1D23 /* Tabs.swift in Sources */,
+				56A392972B42B0CA001E1D23 /* SearchBar.swift in Sources */,
+				56A392A42B446CAD001E1D23 /* FavoriteListView.swift in Sources */,
+				56A392A82B446CCE001E1D23 /* SearchListView.swift in Sources */,
 				56A3928D2B41A7F7001E1D23 /* SearchView.swift in Sources */,
+				56A392A02B430CD5001E1D23 /* MyLocationMapView.swift in Sources */,
 				56A392872B4134E0001E1D23 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +471,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		56A392932B41FDB8001E1D23 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		56A392942B41FDB8001E1D23 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56A392932B41FDB8001E1D23 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 56A392692B406366001E1D23 /* Project object */;
 }

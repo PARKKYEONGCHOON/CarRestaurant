@@ -11,9 +11,19 @@ struct MyLocationView: View {
     
     var body: some View{
         
-        VStack{
+        NavigationView{
+            
+            VStack{
+                
+                MyLocationMapView()
+                
+            }
+            
+            .navigationTitle("내 주변")
+            .navigationBarTitleDisplayMode(.large)
             
         }
+        
         
     }
     

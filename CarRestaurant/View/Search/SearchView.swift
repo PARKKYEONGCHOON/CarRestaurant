@@ -10,11 +10,25 @@ import SwiftUI
 
 struct SearchView: View {
     
+    @Binding var searchText: String
+    @State var inSearchMode = false
+    
+    
     var body: some View{
         
-        VStack{
+        NavigationView{
+            VStack{
+                
+                SearchBar(text: $searchText, isEditing: $inSearchMode)
+                
+                Spacer()
+                
+            }
             
+            .navigationTitle("주유소 검색")
+            .navigationBarTitleDisplayMode(.large)
         }
+        
         
     }
     
@@ -24,7 +38,16 @@ struct SearchView: View {
 struct SearchViewView_Preview: PreviewProvider {
     static var previews: some View {
         
+        let text: String = ""
         
-        SearchView()
+        SearchView(searchText: .constant(text))
     }
 }
+
+
+extension View {
+    func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+}
+

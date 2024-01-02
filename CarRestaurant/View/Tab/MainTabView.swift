@@ -12,6 +12,7 @@ struct MainTabView: View {
     @State private var selection = 0
     @State var searchText: String = ""
     
+    
     let numTabs = 3
     let minDragTranslationForSwipe: CGFloat = 50
     
@@ -40,7 +41,7 @@ struct MainTabView: View {
                     }))
                 
                 
-                SearchView()
+                SearchView(searchText: $searchText)
                     .tabItem {
                         Tab.Search.tabImageItem
                         Tab.Search.tabTextItem

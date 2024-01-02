@@ -27,9 +27,9 @@ enum Tab {
     var tabImageItem: Image {
         
         switch self {
-        case .MyLocation: return Image("glass")
+        case .MyLocation: return Image("location")
         case .Search: return Image("glass")
-        case .Favorite: return Image("glass")
+        case .Favorite: return Image("star")
             
             
         }
