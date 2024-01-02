@@ -7,3 +7,28 @@
 
 import SwiftUI
 
+struct FavoriteListView: View {
+    
+    var body: some View{
+        
+        VStack{
+            
+            HStack{
+                
+            }
+            
+        }
+        
+        
+    }
+    
+}
+
+
+struct FavoriteListView_Preview: PreviewProvider {
+    static var previews: some View {
+        
+        FavoriteListView()
+    }
+}
+

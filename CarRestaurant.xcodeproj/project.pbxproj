@@ -27,6 +27,8 @@
 		56A392A62B446CBC001E1D23 /* FavoriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392A52B446CBC001E1D23 /* FavoriteDetailView.swift */; };
 		56A392A82B446CCE001E1D23 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392A72B446CCE001E1D23 /* SearchListView.swift */; };
 		56A392AA2B446CDC001E1D23 /* SearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392A92B446CDC001E1D23 /* SearchDetailView.swift */; };
+		56A392AC2B44700E001E1D23 /* FavoriteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392AB2B44700E001E1D23 /* FavoriteListCell.swift */; };
+		56A392AE2B447023001E1D23 /* SearchListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A392AD2B447023001E1D23 /* SearchListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		56A392A52B446CBC001E1D23 /* FavoriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDetailView.swift; sourceTree = "<group>"; };
 		56A392A72B446CCE001E1D23 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
 		56A392A92B446CDC001E1D23 /* SearchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailView.swift; sourceTree = "<group>"; };
+		56A392AB2B44700E001E1D23 /* FavoriteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListCell.swift; sourceTree = "<group>"; };
+		56A392AD2B447023001E1D23 /* SearchListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 				56A392962B42B0CA001E1D23 /* SearchBar.swift */,
 				56A392A72B446CCE001E1D23 /* SearchListView.swift */,
 				56A392A92B446CDC001E1D23 /* SearchDetailView.swift */,
+				56A392AD2B447023001E1D23 /* SearchListCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				56A3928F2B41A9A6001E1D23 /* FavoriteView.swift */,
 				56A392A32B446CAD001E1D23 /* FavoriteListView.swift */,
 				56A392A52B446CBC001E1D23 /* FavoriteDetailView.swift */,
+				56A392AB2B44700E001E1D23 /* FavoriteListCell.swift */,
 			);
 			path = Favorite;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 				56A3929E2B430CB2001E1D23 /* MyLocationButtonView.swift in Sources */,
 				56A3929A2B42B2BE001E1D23 /* Extension.swift in Sources */,
 				56A392772B406366001E1D23 /* ContentView.swift in Sources */,
+				56A392AE2B447023001E1D23 /* SearchListCell.swift in Sources */,
 				56A3929C2B42FE33001E1D23 /* NavigationModifier.swift in Sources */,
 				56A392A62B446CBC001E1D23 /* FavoriteDetailView.swift in Sources */,
 				56A392AA2B446CDC001E1D23 /* SearchDetailView.swift in Sources */,
@@ -265,6 +272,7 @@
 				56A392902B41A9A6001E1D23 /* FavoriteView.swift in Sources */,
 				56A392752B406366001E1D23 /* CarRestaurantApp.swift in Sources */,
 				56A392852B40649D001E1D23 /* Tabs.swift in Sources */,
+				56A392AC2B44700E001E1D23 /* FavoriteListCell.swift in Sources */,
 				56A392972B42B0CA001E1D23 /* SearchBar.swift in Sources */,
 				56A392A42B446CAD001E1D23 /* FavoriteListView.swift in Sources */,
 				56A392A82B446CCE001E1D23 /* SearchListView.swift in Sources */,
