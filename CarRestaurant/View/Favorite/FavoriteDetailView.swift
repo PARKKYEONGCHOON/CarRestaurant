@@ -6,3 +6,27 @@
 //
 
 import SwiftUI
+
+struct FavoriteDetailView: View {
+    
+    var body: some View{
+        
+        NavigationView{
+            
+            
+            
+        }
+        
+        
+    }
+    
+    
+}
+
+struct FavoriteDetailView_Preview: PreviewProvider {
+    static var previews: some View {
+        
+        FavoriteDetailView()
+    }
+}
+

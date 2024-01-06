@@ -11,13 +11,25 @@ struct FavoriteListView: View {
     
     var body: some View{
         
-        VStack{
+        ScrollView {
             
-            HStack{
+            LazyVStack{
+                
+                NavigationLink(
+                    destination: {
+                        FavoriteDetailView()
+                    },
+                    label: {
+                        FavoriteListCell()
+                    }
+                )
+                
+                    
                 
             }
-            
         }
+        
+        
         
         
     }

@@ -23,6 +23,10 @@ struct SearchView: View {
                 
                 Spacer()
                 
+                if inSearchMode {
+                    SearchListView()
+                }
+                
             }
             
             .navigationTitle("주유소 검색")

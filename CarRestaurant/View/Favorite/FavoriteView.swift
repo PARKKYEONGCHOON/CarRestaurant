@@ -14,7 +14,7 @@ struct FavoriteView: View {
         
         NavigationView{
             VStack{
-                
+                FavoriteListView()
             }
             .navigationTitle("즐겨 찾기")
             .navigationBarTitleDisplayMode(.large)

@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+   
+    @StateObject var coordinator: Coordinator = Coordinator.shared
+    
     var body: some View {
         VStack {
             MainTabView()
         }
         .padding()
+        .onAppear {
+                    Coordinator.shared.checkIfLocationServiceIsEnabled()
+                }
+        
     }
 }
 

@@ -8,3 +8,23 @@
 import SwiftUI
 
 
+struct SearchDetailView: View {
+    
+    var body: some View {
+        
+        VStack{
+            
+        }
+        
+        
+    }
+    
+    
+}
+
+struct SearchDetailView_Preview: PreviewProvider{
+    static var previews: some View {
+        
+        SearchDetailView()
+    }
+}

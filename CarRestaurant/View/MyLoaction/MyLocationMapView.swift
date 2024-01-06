@@ -11,16 +11,24 @@ struct MyLocationMapView: View {
     
     var body: some View {
         
-        ZStack{
+        VStack(spacing: 5.0){
             
-            Text("Map")
+            Spacer()
+                
+            MapView()
+                
+            Spacer()
             
-            MyLocationButtonView()
-                .position(
-                    x: UIScreen.main.bounds.size.width - 30,
-                    y: UIScreen.main.bounds.size.height / 30)
-            
+            HStack{
+                Text("esad")
+                
+                
+            }
         }
+        
+        
+        
+        
         
         
     }
